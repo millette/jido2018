@@ -139,9 +139,9 @@ $body$
   <p class="level-item ">
     <a class="link" href="$sourcefile$">source Markdown</a>
   </p>
-  <!-- p class="level-item ">
-    <a class="link" href="https://github.com/millette/amour-js">sources complètes</a>
-  </p -->
+  <p class="level-item ">
+    <a class="link" href="https://github.com/millette/jido2018">sources complètes</a>
+  </p>
 </nav>
 </div>
 </footer>

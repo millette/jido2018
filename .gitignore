@@ -1,7 +1,8 @@
 node_modules
 .env
 .dat
-amour-js.html
-amour-js-pandoc.json
-amour-js.pdf
-amour-js.odt
+index.html
+index-pandoc.json
+index.pdf
+index.odt
+
