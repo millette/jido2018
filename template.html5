@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html$if(lang)$ lang="$lang$"$endif$>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+$for(author-meta)$
+  <meta name="author" content="$author-meta$">
+$endfor$
+$if(date-meta)$
+  <meta name="dcterms.date" content="$date-meta$">
+$endif$
+  <title>$if(title-prefix)$$title-prefix$ - $endif$$pagetitle$</title>
+  <style type="text/css">code{white-space: pre;}</style>
+$if(quotes)$
+  <style type="text/css">q { quotes: "“" "”" "‘" "’"; }</style>
+$endif$
+$if(highlighting-css)$
+  <style type="text/css">
+$highlighting-css$
+  </style>
+$endif$
+$for(css)$
+  <link rel="stylesheet" href="$css$">
+$endfor$
+$if(math)$
+  $math$
+$endif$
+
+  <link href="css/bulmaswatch-cyborg.min.css" rel="stylesheet" type="text/css" title="Night mode">
+  <link href="css/bulmaswatch-cerulean.min.css" rel="alternate stylesheet" type="text/css" title="Day mode">
+
+
+  <style>
+    .columns-reversed {
+      flex-direction: row-reverse;
+    }
+
+    .rym-sticky {
+      position: sticky;
+      top: 14em;
+    }
+
+    .level1 > h1, .level2 > h2 {
+      margin-top: 1em;
+    }
+
+    .columns-reversed .content > .section:first-of-type {
+      padding-top: 0;
+    }
+
+    .columns-reversed .content > .section:first-of-type > h1 {
+      margin-top: 0.5em;
+    }
+
+    .content a {
+      text-decoration: underline;
+    }
+
+    .content .section {
+        padding-left: 0;
+    }
+
+    @media (min-width: 769px) {
+      .content .section {
+        padding-left: 0;
+      }
+    }
+
+    @media (max-width: 1023px) {
+      .content .section {
+        padding-left: 1em;
+      }
+    }
+
+  </style>
+$for(header-includes)$
+  $header-includes$
+$endfor$
+
+</head>
+<body>
+$for(include-before)$
+$include-before$
+$endfor$
+$if(title)$
+
+<header class="hero">
+<div class="hero-body">
+<div class="container">
+<h1 class="title">$title$</h1>
+$if(subtitle)$
+<h1 class="subtitle">$subtitle$</h1>
+$endif$
+$for(author)$
+<h2 class="author">$author$</h2>
+$endfor$
+$if(date)$
+<h3 class="date">$date$</h3>
+$endif$
+</div>
+</div>
+</header>
+$endif$
+
+<div class="container">
+<div class="columns columns-reversed is-8 is-variable">
+
+$if(toc)$
+<div class="column is-narrow">
+<div class="rym-sticky box">
+<h1 class="title is-4">#JIDO2018</h1>
+$for(author)$
+<h2 class="author title is-6">$author$</h2>
+$endfor$
+$if(date)$
+<h3 class="date title is-6">$date$</h3>
+$endif$
+
+<aside class="menu" id="$idprefix$TOC">
+$toc$
+</aside>
+</div>
+</div>
+$endif$
+
+<div class="column content">
+$body$
+</div>
+</div>
+</div>
+
+<footer class="footer">
+<div class="container">
+<nav class="level is-mobile">
+  <p class="level-item ">
+    &copy; 2018&nbsp;$for(author)$<a class="link" href="$authorUrl$">$author$</a>$endfor$
+  </p>
+  <p class="level-item ">
+    <a class="link" href="$sourcefile$">source Markdown</a>
+  </p>
+  <!-- p class="level-item ">
+    <a class="link" href="https://github.com/millette/amour-js">sources complètes</a>
+  </p -->
+</nav>
+</div>
+</footer>
+
+$for(include-after)$
+$include-after$
+$endfor$
+
+<script type="text/javascript" src="js/styleswitcher.js"></script>
+<script>
+  const $$tocUl = document.querySelector('#TOC > ul')
+
+  $$tocUl.classList.add('menu-list')
+
+  const $$field = document.createElement('div')
+  const $$defaultStyle = document.createElement('button')
+  const $$altStyle = document.createElement('button')
+
+  $$field.classList.add('buttons')
+  $$field.classList.add('is-centered')
+  $$field.classList.add('box')
+
+  $$defaultStyle.innerText = 'Night mode'
+  $$defaultStyle.classList.add('button')
+
+  $$defaultStyle.classList.add('is-primary')
+
+  $$altStyle.innerText = 'Day mode'
+  $$altStyle.classList.add('button')
+
+  $$altStyle.classList.add('is-success')
+
+  $$field.appendChild($$defaultStyle)
+  $$field.appendChild($$altStyle)
+  document.querySelector('#TOC').appendChild($$field)
+
+  $$defaultStyle.addEventListener('click', function (ev) {
+    ev.preventDefault()
+    setActiveStyleSheet('Night mode')
+  })
+
+  $$altStyle.addEventListener('click', function (ev) {
+    ev.preventDefault()
+    setActiveStyleSheet('Day mode')
+  })
+</script>
+</body>
+</html>
