@@ -32,6 +32,13 @@ $endif$
 
 
   <style>
+    .hero-body {
+      background-image: url("imgs/1463232051-300px.png");
+      background-size: contain;
+      background-position: 97% 50%;
+      background-repeat: no-repeat;
+    }
+
     .columns-reversed {
       flex-direction: row-reverse;
     }
@@ -73,6 +80,10 @@ $endif$
       }
     }
 
+    .footer {
+      margin-top: 2em;
+    }
+
   </style>
 $for(header-includes)$
   $header-includes$
@@ -83,9 +94,7 @@ $endfor$
 $for(include-before)$
 $include-before$
 $endfor$
-$if(title)$
-
-<header class="hero">
+<header class="hero is-bold is-warning">
 <div class="hero-body">
 <div class="container">
 <h1 class="title">$title$</h1>
@@ -101,7 +110,6 @@ $endif$
 </div>
 </div>
 </header>
-$endif$
 
 <div class="container">
 <div class="columns columns-reversed is-8 is-variable">
@@ -116,6 +124,15 @@ $endfor$
 $if(date)$
 <h3 class="date title is-6">$date$</h3>
 $endif$
+$if(location)$
+<h3 class="location title is-6">$location$</h3>
+$endif$
+
+<div class="buttons is-centered">
+<a class="button is-danger" href="https://dates.facil.services/jido2018">Inscription</a>
+<a class="button is-warning" href="https://forumsdulibre.quebec/t/journee-internationale-des-donnees-ouvertes-2018/324?u=millette">Discussion</a>
+<a class="button is-link" href="https://opendataday.org/">Site officiel</a>
+</div>
 
 <aside class="menu" id="$idprefix$TOC">
 $toc$
@@ -134,7 +151,7 @@ $body$
 <div class="container">
 <nav class="level is-mobile">
   <p class="level-item ">
-    &copy; 2018&nbsp;$for(author)$<a class="link" href="$authorUrl$">$author$</a>$endfor$
+    &copy; 2018&nbsp;<a class="link" href="http://robin.millette.info/">Robin Millette</a>
   </p>
   <p class="level-item ">
     <a class="link" href="$sourcefile$">source Markdown</a>
@@ -166,13 +183,15 @@ $endfor$
 
   $$defaultStyle.innerText = 'Night mode'
   $$defaultStyle.classList.add('button')
-
   $$defaultStyle.classList.add('is-primary')
+  $$defaultStyle.classList.add('is-hollow')
+  $$defaultStyle.classList.add('is-small')
 
   $$altStyle.innerText = 'Day mode'
   $$altStyle.classList.add('button')
-
   $$altStyle.classList.add('is-success')
+  $$altStyle.classList.add('is-hollow')
+  $$altStyle.classList.add('is-small')
 
   $$field.appendChild($$defaultStyle)
   $$field.appendChild($$altStyle)

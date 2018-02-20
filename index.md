@@ -2,9 +2,7 @@
 title: Journée internationale des données ouvertes
 subtitle: Édition 2018, Montréal
 date: 2018-03-03
-authorUrl: http://robin.millette.info/
-author:
-- Robin Millette
+location: Maison Notman, Montréal
 lang: fr
 ...
 
@@ -22,7 +20,7 @@ Fusce euismod vulputate dolor, sit amet rutrum est iaculis a. Aenean sed sapien 
 # Éditions précédentes { .section }
 Cras pharetra, est vel tempor hendrerit, urna mi ultricies nunc, sit amet posuere ligula justo eget velit. Vivamus urna magna, tempor quis sagittis sit amet, ultricies a lacus. Fusce malesuada nulla at orci efficitur iaculis. Etiam dictum iaculis nunc, non porta enim tempus et. Maecenas imperdiet elementum pretium. Mauris placerat, elit non maximus iaculis, odio urna laoreet metus, et tristique ipsum mi in risus. In elit enim, fermentum nec quam eu, sollicitudin sagittis lorem. Etiam non facilisis leo, et porttitor ligula. Donec feugiat sapien in facilisis sodales. Nullam commodo elementum posuere. Ut fringilla, leo at suscipit pretium, nibh leo pretium neque, nec fringilla mi felis non sapien. Vivamus mollis odio varius, pulvinar mi et, eleifend metus. Donec felis lorem, imperdiet in auctor at, porta a justo.
 
-# Liens
+# Liens { .section }
 * [discussion][]
 * [wiki de FACIL][]
 * [opendataday.org][]
