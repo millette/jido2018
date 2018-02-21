@@ -60,17 +60,19 @@ $endif$
       margin-top: 0.5em;
     }
 
-    .content a:hover {
+    .content a:hover, .footer a:hover {
       text-decoration: underline;
     }
 
-    .nightmode .content a {
-      background: lightgray;
-      color: darkblue;
-      padding: 0.1em;
+    .daymode .content a, .nightmode .footer a {
+      color: #2fa4e7;
     }
 
-    .nightmode .content a:hover {
+    .nightmode .content a, .nightmode .footer a {
+      color: #ffdd57;
+    }
+
+    .nightmode .content a:hover, .nightmode .footer a:hover {
       color: red;
     }
 

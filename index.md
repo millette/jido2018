@@ -28,12 +28,14 @@ Beaucoup de choses vont se produire. Alors... attendez-vous à:
 La première édition du *Open Data Day* remonte au 4 décembre 2010, sous la forme de hackathons. Montréal a participé depuis à 3 ou 4 reprises, grâce entre autre à [FACIL][], [Nord Ouvert][], [OKFN Canada][] et bien plus. On trouvera un petit historique sur le [wiki de FACIL][].
 
 # Liens { .section }
-* [discussion][]
-* [wiki de FACIL][]
 * [opendataday.org][]
+* [discussion][]
+* [Agenda du libre][]
+* [wiki de FACIL][]
 * [inscription][]
 * [discussion #2][]
 * [twitter][]
+* [Maison Notman][]
 
 [discussion]: <https://forumsdulibre.quebec/t/journee-internationale-des-donnees-ouvertes-2018/324?u=millette>
 [wiki de FACIL]: <https://wiki.facil.qc.ca/view/Journ%C3%A9e_internationale_des_donn%C3%A9es_ouvertes>
@@ -45,3 +47,4 @@ La première édition du *Open Data Day* remonte au 4 décembre 2010, sous la fo
 [Nord Ouvert]: <https://www.nordouvert.ca/>
 [OKFN Canada]: <https://ca.okfn.org/>
 [Maison Notman]: <http://notman.org/>
+[Agenda du libre]: <http://agendadulibre.qc.ca/events/1786>
