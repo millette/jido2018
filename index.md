@@ -27,7 +27,14 @@ Beaucoup de choses vont se produire. Alors... attendez-vous à:
 # Éditions précédentes { .section }
 La première édition du *Open Data Day* remonte au 4 décembre 2010, sous la forme de hackathons. Montréal a participé depuis à 3 ou 4 reprises, grâce entre autre à [FACIL][], [Nord Ouvert][], [OKFN Canada][] et bien plus. On trouvera un petit historique sur le [wiki de FACIL][].
 
-# Liens { .section }
+# Remerciements
+Un gros merci à la [Maison Notman][] pour la salle qu'elle a gracieusement mis à notre disponibilité.
+
+Merci à Frédéric (créateur du [Character Creator]) pour l'image de promotion:
+
+![Promotion JIDO2018][id]
+
+# Liens, références { .section }
 * [opendataday.org][]
 * [discussion][]
 * [Agenda du libre][]
@@ -48,3 +55,5 @@ La première édition du *Open Data Day* remonte au 4 décembre 2010, sous la fo
 [OKFN Canada]: <https://ca.okfn.org/>
 [Maison Notman]: <http://notman.org/>
 [Agenda du libre]: <http://agendadulibre.qc.ca/events/1786>
+[Character Creator]: <https://charactercreator.org/>
+[id]: imgs/jido2018.png
