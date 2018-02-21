@@ -73,7 +73,6 @@ $endif$
   <link href="css/bulmaswatch-cyborg.min.css" rel="stylesheet" type="text/css" title="Night mode">
   <link href="css/bulmaswatch-cerulean.min.css" rel="alternate stylesheet" type="text/css" title="Day mode">
 
-
   <style>
     .hero-body {
       background-image: url("imgs/1463232051-300px.png");
@@ -137,6 +136,15 @@ $endif$
 
     .footer {
       margin-top: 2em;
+    }
+
+    .buttons > i {
+      font-size: small;
+      padding-left: 1em;
+    }
+
+    .box .box {
+      margin-top: 1em;
     }
 
   </style>
@@ -225,12 +233,16 @@ $endfor$
 <script type="text/javascript" src="js/styleswitcher.js"></script>
 <script>
   const $$tocUl = document.querySelector('#TOC > ul')
+  const $$toc = document.querySelector('#TOC')
 
   $$tocUl.classList.add('menu-list')
 
   const $$field = document.createElement('div')
   const $$defaultStyle = document.createElement('button')
   const $$altStyle = document.createElement('button')
+  const $$titre = document.createElement('i')
+
+  $$titre.innerText = 'Sélecteur de thème'
 
   $$field.classList.add('buttons')
   $$field.classList.add('is-centered')
@@ -239,18 +251,19 @@ $endfor$
   $$defaultStyle.innerText = 'Night mode'
   $$defaultStyle.classList.add('button')
   $$defaultStyle.classList.add('is-primary')
-  $$defaultStyle.classList.add('is-hollow')
+  $$defaultStyle.classList.add('is-outlined')
   $$defaultStyle.classList.add('is-small')
 
   $$altStyle.innerText = 'Day mode'
   $$altStyle.classList.add('button')
   $$altStyle.classList.add('is-success')
-  $$altStyle.classList.add('is-hollow')
+  $$altStyle.classList.add('is-outlined')
   $$altStyle.classList.add('is-small')
 
   $$field.appendChild($$defaultStyle)
   $$field.appendChild($$altStyle)
-  document.querySelector('#TOC').appendChild($$field)
+  $$field.appendChild($$titre)
+  $$toc.appendChild($$field)
 
   $$defaultStyle.addEventListener('click', function (ev) {
     ev.preventDefault()

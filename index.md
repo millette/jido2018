@@ -44,13 +44,14 @@ Merci à [donchico pour l'image du header][] (domaine public, 2016-05-14).
 
 # Liens, références { .section }
 * [opendataday.org][]
-* [discussion][]
+* [discussion][] (Forums du libre)
 * [Agenda du libre][]
 * [wiki de FACIL][]
 * [inscription][]
-* [discussion #2][]
-* [twitter][]
+* [discussion #2][] (google groups)
+* [tweet initial][twitter] hashtags ```#JIDO2018``` ```#OpenDataDay```
 * [Maison Notman][]
+* [Agenda du libre][]
 
 [discussion]: <https://forumsdulibre.quebec/t/journee-internationale-des-donnees-ouvertes-2018/324?u=millette>
 [wiki de FACIL]: <https://wiki.facil.qc.ca/view/Journ%C3%A9e_internationale_des_donn%C3%A9es_ouvertes>
