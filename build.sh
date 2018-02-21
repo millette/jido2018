@@ -17,3 +17,5 @@ pandoc index-pandoc.json --toc-depth=2 --variable=sourcefile:index.md --variable
 # pandoc index.md --toc-depth=2 --section-divs --variable=sourcefile:index.md --variable=lang:french --toc --email-obfuscation=none --smart --standalone --output=index.pdf
 
 # pandoc index.md --toc-depth=2 --section-divs --variable=sourcefile:index.md --variable=lang:french --toc --email-obfuscation=none --smart --standalone --output=index.odt
+
+dat .
