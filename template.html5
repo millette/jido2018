@@ -60,15 +60,18 @@ $endif$
       margin-top: 0.5em;
     }
 
-    .content a {
-      background: white;
+    .content a:hover {
+      text-decoration: underline;
+    }
+
+    .nightmode .content a {
+      background: lightgray;
       color: darkblue;
       padding: 0.1em;
     }
 
-    .content a:hover {
+    .nightmode .content a:hover {
       color: red;
-      text-decoration: underline;
     }
 
     .content .section {
