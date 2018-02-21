@@ -9,8 +9,12 @@ lang: fr
 # Journée internationale des données ouvertes { .section }
 Dans de nombreuses villes à travers le monde, des citoyens se rassemblent pour développer des applications, libérer des données, créer des visualisations et publier des analyses utilisant des données ouvertes, tout cela pour supporter et encourager l'adoption de politiques de libération des données par les gouvernements locaux, régionaux et nationaux.
 
+Site officiel: [opendataday.org][]
+
 # Participer { .section }
 Vous avez une idée d'utilisation de données ouvertes, vous souhaitez contribuer à un projet intéressant ou vous voulez simplement voir ce qu'il se passe, alors venez vous joindre à nous. Peu importe vos compétences et vos intérêts, vous aurez de nombreuses opportunités pour apprendre et aider au développement de la communauté mondiale des données ouvertes.
+
+**N'oubliez pas de vous [inscrire][inscription]!**
 
 Beaucoup de choses vont se produire. Alors... attendez-vous à:
 
@@ -24,6 +28,8 @@ Beaucoup de choses vont se produire. Alors... attendez-vous à:
 * Organiser des sessions ouvertes d'explication sur les données ouvertes et les outils pertinents.
 * Avoir beaucoup, beaucoup de plaisir.
 
+**Inspiré? Venez en [discuter][discussion] sur les Forums du libre.**
+
 # Éditions précédentes { .section }
 La première édition du *Open Data Day* remonte au 4 décembre 2010, sous la forme de hackathons. Montréal a participé depuis à 3 ou 4 reprises, grâce entre autre à [FACIL][], [Nord Ouvert][], [OKFN Canada][] et bien plus. On trouvera un petit historique sur le [wiki de FACIL][].
 
@@ -33,6 +39,8 @@ Un gros merci à la [Maison Notman][] pour la salle qu'elle a gracieusement mis 
 Merci à Frédéric (créateur du [Character Creator]) pour l'image de promotion:
 
 ![Promotion JIDO2018][id]
+
+Merci à [donchico pour l'image du header][] (domaine public, 2016-05-14).
 
 # Liens, références { .section }
 * [opendataday.org][]
@@ -56,4 +64,5 @@ Merci à Frédéric (créateur du [Character Creator]) pour l'image de promotion
 [Maison Notman]: <http://notman.org/>
 [Agenda du libre]: <http://agendadulibre.qc.ca/events/1786>
 [Character Creator]: <https://charactercreator.org/>
+[donchico pour l'image du header]: <https://openclipart.org/detail/248456/chart>
 [id]: imgs/jido2018.png
