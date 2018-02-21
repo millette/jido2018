@@ -258,8 +258,10 @@ $endfor$
       countdownText.push(hours > 1 ? 'heures' : 'heure')
     }
 
-    $$countdown.innerText = countdownText.join(' ')
-    setTimeout(updateCountdown, 5 * 60 * 1000)
+    if (hours > 0 || days > 0) {
+      $$countdown.innerText = countdownText.join(' ')
+      setTimeout(updateCountdown, 5 * 60 * 1000)
+    }
   }
 
   updateCountdown()
