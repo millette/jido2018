@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html$if(lang)$ lang="$lang$"$endif$>
+<html$if(lang)$ lang="$lang$"$endif$ prefix="og: http://ogp.me/ns#">
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
