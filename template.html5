@@ -232,8 +232,37 @@ $endfor$
 
 <script type="text/javascript" src="js/styleswitcher.js"></script>
 <script>
+  const $$date = document.querySelector('.date')
   const $$tocUl = document.querySelector('#TOC > ul')
+  const $$countdown = document.createElement('b')
+  $$date.appendChild($$countdown)
   $$tocUl.classList.add('menu-list')
+
+  const updateCountdown = function () {
+    const countdownText = [' — dans moins de']
+    const w = new Date(2018, 2, 3, 13)
+    const n = new Date()
+    const daysDecimal = (w.getTime() - n.getTime()) / 86400000
+
+    const days = Math.floor(daysDecimal)
+    const hours = Math.ceil(24 * (daysDecimal - days))
+
+    if (days) {
+      countdownText.push(days)
+      countdownText.push(days > 1 ? 'jours' : 'jour')
+      if (hours) { countdownText.push('et') }
+    }
+
+    if (hours) {
+      countdownText.push(hours)
+      countdownText.push(hours > 1 ? 'heures' : 'heure')
+    }
+
+    $$countdown.innerText = countdownText.join(' ')
+    setTimeout(updateCountdown, 5 * 60 * 1000)
+  }
+
+  updateCountdown()
 
   if (typeof setActiveStyleSheet === 'function') {
     const $$toc = document.querySelector('#TOC')
