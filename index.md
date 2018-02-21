@@ -48,16 +48,19 @@ Merci à Paul Frazee pour l'hébergement dat P2P sur [hashbase][] et le [backup]
 
 # Liens, références { .section }
 * [opendataday.org][]
+* [Données Québec][]
+* [tweet initial][twitter] hashtags ```#JIDO2018``` ```#OpenDataDay```
 * [discussion][] Forums du libre
 * [Agenda du libre][]
 * [wiki de FACIL][]
 * [inscription][]
 * [discussion #2][] Google Groups
-* [tweet initial][twitter] hashtags ```#JIDO2018``` ```#OpenDataDay```
 * [Maison Notman][]
 * [Agenda du libre][]
 * [Code Across][] Ailleurs au Canada
 * [hashbase][] Hébergement web et dat P2P
+* [backup][] https et ```dat://jido2018-millette.hashbase.io/```
+
 
 [discussion]: <https://forumsdulibre.quebec/t/journee-internationale-des-donnees-ouvertes-2018/324?u=millette>
 [wiki de FACIL]: <https://wiki.facil.qc.ca/view/Journ%C3%A9e_internationale_des_donn%C3%A9es_ouvertes>
@@ -75,4 +78,5 @@ Merci à Paul Frazee pour l'hébergement dat P2P sur [hashbase][] et le [backup]
 [Code Across]: <http://codeacross.ca/>
 [hashbase]: <https://hashbase.io/>
 [backup]: <https://jido2018-millette.hashbase.io/>
+[Données Québec]: <https://www.donneesquebec.ca/>
 [id]: imgs/jido2018.png
