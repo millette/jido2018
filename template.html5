@@ -49,7 +49,7 @@ $endif$
     }
 
     .level1 > h1, .level2 > h2 {
-      margin-top: 1em;
+      /* margin-top: 1em; */
     }
 
     .columns-reversed .content > .section:first-of-type {
