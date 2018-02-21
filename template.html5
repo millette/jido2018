@@ -61,6 +61,13 @@ $endif$
     }
 
     .content a {
+      background: white;
+      color: darkblue;
+      padding: 0.1em;
+    }
+
+    .content a:hover {
+      color: red;
       text-decoration: underline;
     }
 
