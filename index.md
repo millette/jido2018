@@ -44,17 +44,20 @@ Merci à Frédéric (créateur du [Character Creator]) pour l'image de promotion
 
 Merci à [donchico pour l'image du header][] (domaine public, 2016-05-14).
 
+Merci à Paul Frazee pour l'hébergement dat P2P sur [hashbase][] et le [backup][] du site.
+
 # Liens, références { .section }
 * [opendataday.org][]
-* [discussion][] (Forums du libre)
+* [discussion][] Forums du libre
 * [Agenda du libre][]
 * [wiki de FACIL][]
 * [inscription][]
-* [discussion #2][] (google groups)
+* [discussion #2][] Google Groups
 * [tweet initial][twitter] hashtags ```#JIDO2018``` ```#OpenDataDay```
 * [Maison Notman][]
 * [Agenda du libre][]
 * [Code Across][] Ailleurs au Canada
+* [hashbase][] Hébergement web et dat P2P
 
 [discussion]: <https://forumsdulibre.quebec/t/journee-internationale-des-donnees-ouvertes-2018/324?u=millette>
 [wiki de FACIL]: <https://wiki.facil.qc.ca/view/Journ%C3%A9e_internationale_des_donn%C3%A9es_ouvertes>
@@ -70,4 +73,6 @@ Merci à [donchico pour l'image du header][] (domaine public, 2016-05-14).
 [Character Creator]: <https://charactercreator.org/>
 [donchico pour l'image du header]: <https://openclipart.org/detail/248456/chart>
 [Code Across]: <http://codeacross.ca/>
+[hashbase]: <https://hashbase.io/>
+[backup]: <https://jido2018-millette.hashbase.io/>
 [id]: imgs/jido2018.png
