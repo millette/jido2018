@@ -4,6 +4,31 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+  <meta name="description" content="Activité du samedi 3 mars 2018 à Montréal pour la Journée internationale des données ouvertes.">
+
+  <meta property="og:title" content="Journée internationale des données ouvertes">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://jido2018.waglo.com/">
+  <meta property="og:image" content="https://jido2018-millette.hashbase.io/imgs/jido2018.png">
+  <meta property="og:description" content="Activité du samedi 3 mars 2018 à Montréal pour la Journée internationale des données ouvertes.">
+  <meta property="og:site_name" content="Journée internationale des données ouvertes">
+  <meta property="article:published_time" content="2018-02-21T03:08:11Z">
+  <meta property="article:modified_time" content="2018-02-21T03:08:11Z">
+  <meta property="article:tag" content="JIDO2018">
+  <meta property="article:tag" content="OpenDataDay">
+
+  <meta itemprop="name" content="Journée internationale des données ouvertes">
+  <meta itemprop="description" content="Activité du samedi 3 mars 2018 à Montréal pour la Journée internationale des données ouvertes.">
+  <meta itemprop="image" content="https://jido2018-millette.hashbase.io/imgs/jido2018.png">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@rollodeqc">
+  <meta name="twitter:title" content="Journée internationale des données ouvertes">
+  <meta name="twitter:description" content="Activité du samedi 3 mars 2018 à Montréal pour la Journée internationale des données ouvertes.">
+  <meta name="twitter:creator" content="@rollodeqc">
+  <meta name="twitter:image" content="https://jido2018-millette.hashbase.io/imgs/jido2018.png">
+
 $for(author-meta)$
   <meta name="author" content="$author-meta$">
 $endfor$
