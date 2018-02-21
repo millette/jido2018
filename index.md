@@ -11,6 +11,8 @@ Dans de nombreuses villes à travers le monde, des citoyens se rassemblent pour 
 
 Site officiel: [opendataday.org][]
 
+Au Canada, Vancouver, Calgary et Toronto participent cette année. Plus de détails sur [Code Across][].
+
 # Participer { .section }
 Vous avez une idée d'utilisation de données ouvertes, vous souhaitez contribuer à un projet intéressant ou vous voulez simplement voir ce qu'il se passe, alors venez vous joindre à nous. Peu importe vos compétences et vos intérêts, vous aurez de nombreuses opportunités pour apprendre et aider au développement de la communauté mondiale des données ouvertes.
 
@@ -52,6 +54,7 @@ Merci à [donchico pour l'image du header][] (domaine public, 2016-05-14).
 * [tweet initial][twitter] hashtags ```#JIDO2018``` ```#OpenDataDay```
 * [Maison Notman][]
 * [Agenda du libre][]
+* [Code Across][] Ailleurs au Canada
 
 [discussion]: <https://forumsdulibre.quebec/t/journee-internationale-des-donnees-ouvertes-2018/324?u=millette>
 [wiki de FACIL]: <https://wiki.facil.qc.ca/view/Journ%C3%A9e_internationale_des_donn%C3%A9es_ouvertes>
@@ -66,4 +69,5 @@ Merci à [donchico pour l'image du header][] (domaine public, 2016-05-14).
 [Agenda du libre]: <http://agendadulibre.qc.ca/events/1786>
 [Character Creator]: <https://charactercreator.org/>
 [donchico pour l'image du header]: <https://openclipart.org/detail/248456/chart>
+[Code Across]: <http://codeacross.ca/>
 [id]: imgs/jido2018.png
