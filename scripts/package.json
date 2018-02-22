@@ -6,6 +6,9 @@
     "cli.js"
   ],
   "license": "AGPL-3.0",
+  "engines": {
+    "node": ">8.9.4"
+  },
   "scripts": {
     "lint": "standard"
   },
