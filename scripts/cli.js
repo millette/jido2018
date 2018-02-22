@@ -4,5 +4,5 @@
 const run = require('.')
 
 run()
-    .then(console.log)
-    .catch(console.error)
+  .then(console.log)
+  .catch(console.error)
