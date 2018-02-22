@@ -56,7 +56,8 @@ Merci à Paul Frazee pour l'hébergement dat P2P sur [hashbase][] et le [backup]
 * [inscription][]
 * [discussion #2][] Google Groups
 * [Maison Notman][]
-* [Agenda du libre][]
+* [Agenda du libre][] Calendrier
+* [Mur Mitoyen][] Calendrier
 * [Code Across][] Ailleurs au Canada
 * [hashbase][] Hébergement web et dat P2P
 * [backup][] https et ```dat://jido2018-millette.hashbase.io/```
@@ -79,4 +80,5 @@ Merci à Paul Frazee pour l'hébergement dat P2P sur [hashbase][] et le [backup]
 [hashbase]: <https://hashbase.io/>
 [backup]: <https://jido2018-millette.hashbase.io/>
 [Données Québec]: <https://www.donneesquebec.ca/>
+[Mur Mitoyen]: <http://montreal.murmitoyen.com/detail/810271-journee-internationale-des-donnees-ouvertes>
 [id]: imgs/jido2018.png
