@@ -20,7 +20,7 @@ const tr = (entry) => {
   const ret = {
     type: 'Feature',
     properties: { place, program },
-    geometry: { type: 'Point', coordinates: }
+    geometry: { type: 'Point', coordinates }
   }
 
   let urlTmp = entry.gsx$url.$t.toLowerCase()
