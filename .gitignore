@@ -1,5 +1,7 @@
 node_modules
 .env
+scripts/node_modules
+scripts/.env
 .dat
 index.html
 index-pandoc.json
