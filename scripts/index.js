@@ -14,6 +14,9 @@ const normOpts = {
 const norm = (u) => normImp(u, normOpts)
 
 const tr = (entry) => {
+  if (!entry.gsx$longitude.$t) { return false }
+  if (!entry.gsx$latitude.$t) { return false }
+
   const coordinates = [parseFloat(entry.gsx$longitude.$t), parseFloat(entry.gsx$latitude.$t)]
   const place = entry.gsx$place.$t
   const program = entry.gsx$program.$t
@@ -45,7 +48,7 @@ const transform = (feed) => JSON.stringify({
   type: 'FeatureCollection',
   origin: 'https://opendataday.org',
   updated: feed.updated.$t,
-  features: feed.entry.map(tr)
+  features: feed.entry.map(tr).filter(Boolean)
 })
 
 const run = () => got('https://spreadsheets.google.com/feeds/list/1cV43fuzwy2q2ZKDWrHVS6XR4O8B01eLevh4PD6nCENE/4/public/full?alt=json', { json: true })
