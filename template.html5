@@ -70,6 +70,7 @@ $if(math)$
   $math$
 $endif$
 
+  <link href="css/leaflet.min.css" rel="stylesheet" type="text/css">
   <link href="css/bulmaswatch-cyborg.min.css" rel="stylesheet" type="text/css" title="Night mode">
   <link href="css/bulmaswatch-cerulean.min.css" rel="alternate stylesheet" type="text/css" title="Day mode">
 
@@ -212,7 +213,7 @@ $body$
 
 <footer class="footer">
 <div class="container">
-<nav class="level is-mobile">
+<nav class="level">
   <p class="level-item ">
     &copy; 2018&nbsp;<a class="link" href="http://robin.millette.info/">Robin Millette</a>
   </p>
@@ -223,6 +224,27 @@ $body$
     <a class="link" href="https://github.com/millette/jido2018">sources complètes</a>
   </p>
 </nav>
+<div id="mapid">Loading map...</div>
+<br>
+<nav class="level">
+  <div class="level-item has-text-centered">
+    <a class="link" href="https://opendataday.org/">Carte officielle<br>OpenDataDay</a>
+  </div>
+  <div class="level-item has-text-centered">
+    <div>
+    <p class="title" id="nevenements"></p>
+    <p class="heading">Événements</p>
+    </div>
+  </div>
+  <div class="level-item has-text-centered">
+    <div>
+    <p class="title" id="nparticipants"></p>
+    <p class="heading">Participants</p>
+    </div>
+  </div>
+</nav>
+
+
 </div>
 </footer>
 
@@ -230,87 +252,9 @@ $for(include-after)$
 $include-after$
 $endfor$
 
+<script type="text/javascript" src="js/vendor/leaflet-src.min.js"></script>
+<script type="text/javascript" src="js/vendor/leaflet-providers.min.js"></script>
 <script type="text/javascript" src="js/styleswitcher.js"></script>
-<script>
-  const $$date = document.querySelector('.date')
-  const $$tocUl = document.querySelector('#TOC > ul')
-  const $$countdown = document.createElement('b')
-  $$date.appendChild($$countdown)
-  $$tocUl.classList.add('menu-list')
-
-  const updateCountdown = function () {
-    const countdownText = [' — dans moins de']
-    const w = new Date(2018, 2, 3, 13)
-    const n = new Date()
-    const daysDecimal = (w.getTime() - n.getTime()) / 86400000
-
-    let days = Math.floor(daysDecimal)
-    let hours = Math.ceil(24 * (daysDecimal - days))
-
-    if (hours === 24) {
-      hours = 0
-      ++days
-    }
-
-    if (days > 0) {
-      countdownText.push(days)
-      countdownText.push(days > 1 ? 'jours' : 'jour')
-      if (hours) { countdownText.push('et') }
-    }
-
-    if (hours > 0) {
-      countdownText.push(hours)
-      countdownText.push(hours > 1 ? 'heures' : 'heure')
-    }
-
-    if (hours > 0 || days > 0) {
-      $$countdown.innerText = countdownText.join(' ')
-      setTimeout(updateCountdown, 5 * 60 * 1000)
-    }
-  }
-
-  updateCountdown()
-
-  if (typeof setActiveStyleSheet === 'function') {
-    const $$toc = document.querySelector('#TOC')
-    const $$field = document.createElement('div')
-    const $$defaultStyle = document.createElement('button')
-    const $$altStyle = document.createElement('button')
-    const $$titre = document.createElement('i')
-
-    $$titre.innerText = 'Sélecteur de thème'
-
-    $$field.classList.add('buttons')
-    $$field.classList.add('is-centered')
-    $$field.classList.add('box')
-
-    $$defaultStyle.innerText = 'Night mode'
-    $$defaultStyle.classList.add('button')
-    $$defaultStyle.classList.add('is-primary')
-    $$defaultStyle.classList.add('is-outlined')
-    $$defaultStyle.classList.add('is-small')
-
-    $$altStyle.innerText = 'Day mode'
-    $$altStyle.classList.add('button')
-    $$altStyle.classList.add('is-success')
-    $$altStyle.classList.add('is-outlined')
-    $$altStyle.classList.add('is-small')
-
-    $$field.appendChild($$defaultStyle)
-    $$field.appendChild($$altStyle)
-    $$field.appendChild($$titre)
-    $$toc.appendChild($$field)
-
-    $$defaultStyle.addEventListener('click', function (ev) {
-      ev.preventDefault()
-      setActiveStyleSheet('Night mode')
-    })
-
-    $$altStyle.addEventListener('click', function (ev) {
-      ev.preventDefault()
-      setActiveStyleSheet('Day mode')
-    })
-  }
-</script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
