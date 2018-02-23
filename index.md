@@ -11,7 +11,7 @@ Dans de nombreuses villes à travers le monde, des citoyens se rassemblent pour 
 
 Site officiel: [opendataday.org][]
 
-Au Canada, Vancouver, Edmonton, Calgary, Toronto, Montréal et Halifax participent cette année. Plus de détails sur [Code Across][].
+Au Canada, Vancouver, Edmonton, Calgary, Toronto, Montréal, St-John et Halifax participent cette année. Plus de détails sur [Code Across][] ou la [carte en pied de page](#mapid).
 
 # Participer { .section }
 Vous avez une idée d'utilisation de données ouvertes, vous souhaitez contribuer à un projet intéressant ou vous voulez simplement voir ce qu'il se passe, alors venez vous joindre à nous. Peu importe vos compétences et vos intérêts, vous aurez de nombreuses opportunités pour apprendre et aider au développement de la communauté mondiale des données ouvertes.
