@@ -252,13 +252,13 @@ $endfor$
       ++days
     }
 
-    if (days) {
+    if (days > 0) {
       countdownText.push(days)
       countdownText.push(days > 1 ? 'jours' : 'jour')
       if (hours) { countdownText.push('et') }
     }
 
-    if (hours) {
+    if (hours > 0) {
       countdownText.push(hours)
       countdownText.push(hours > 1 ? 'heures' : 'heure')
     }
