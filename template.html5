@@ -154,7 +154,7 @@ $for(header-includes)$
 $endfor$
 
 </head>
-<body>
+<body class="nightmode">
 $for(include-before)$
 $include-before$
 $endfor$
