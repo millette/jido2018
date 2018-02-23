@@ -244,8 +244,13 @@ $endfor$
     const n = new Date()
     const daysDecimal = (w.getTime() - n.getTime()) / 86400000
 
-    const days = Math.floor(daysDecimal)
-    const hours = Math.ceil(24 * (daysDecimal - days))
+    let days = Math.floor(daysDecimal)
+    let hours = Math.ceil(24 * (daysDecimal - days))
+
+    if (hours === 24) {
+      hours = 0
+      ++days
+    }
 
     if (days) {
       countdownText.push(days)
