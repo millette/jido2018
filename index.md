@@ -1,7 +1,9 @@
 # Journée internationale des données ouvertes { .section }
 Dans de nombreuses villes à travers le monde, des citoyens se rassemblent pour développer des applications, libérer des données, créer des visualisations et publier des analyses utilisant des données ouvertes, tout cela pour supporter et encourager l'adoption de politiques de libération des données par les gouvernements locaux, régionaux et nationaux.
 
-Site officiel: [opendataday.org][]
+Site officiel international: [opendataday.org][]
+
+Site de Montréal: [jido2018.waglo.com][]
 
 Au Canada, Vancouver, Edmonton, Calgary, Toronto, Montréal, St-John et Halifax participent cette année. Plus de détails sur [Code Across][] ou la [carte en pied de page](#mapid).
 
@@ -120,6 +122,7 @@ Merci à Paul Frazee pour l'hébergement dat P2P sur [hashbase][] et le [backup]
 * [hashbase][] Hébergement web et dat P2P
 * [backup][] https et ```dat://jido2018-millette.hashbase.io/```
 * [Semaine québécoise de l'informatique libre][]
+* [jido2018.waglo.com][] Ce site
 
 [discussion]: <https://forumsdulibre.quebec/t/journee-internationale-des-donnees-ouvertes-2018/324?u=millette>
 [wiki de FACIL]: <https://wiki.facil.qc.ca/view/Journ%C3%A9e_internationale_des_donn%C3%A9es_ouvertes>
@@ -148,6 +151,8 @@ Merci à Paul Frazee pour l'hébergement dat P2P sur [hashbase][] et le [backup]
 [Urgence dans les hopitaux du Québec]: <https://urg-web-millette.hashbase.io/>
 [Vega et Vega-lite]: <https://vega.github.io/>
 [Semaine québécoise de l'informatique libre]: <https://sqil.info/>
+[jido2018.waglo.com]: <http://jido2018.waglo.com/>
+
 [id]: imgs/jido2018.png
 
 ---

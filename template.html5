@@ -151,7 +151,7 @@ $endif$
     }
 
     .box .box {
-      margin-top: 1em;
+      padding: 0;
     }
 
   </style>
