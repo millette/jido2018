@@ -38,28 +38,26 @@ Avec Robin Millette
 ## 14h45 Wikidata
 Le pendant machine de Wikipédia
 
-Avec Helmi Hamda et Pierre Choffet
+Avec Helmi Hamda
 
 [Wikidata][]
 
 ## 15h15 Le ContrActuel
 Analyse des contrats publics au Québec (SEAO)
 
-Avec Étienne Blanchette, Syndicat des professionnels du government du Québec
+Avec Étienne Blanchette, Syndicat des professionnels du gouvernement du Québec
 
 [Le ContrActuel][]
 
-## 16h00 Cinémathèque
-Avec Marina Gallet, directrice de la préservation et du développement des collections
+## 16h00 Cinémathèque québécoise
+Avec Pierre Choffet et Marina Gallet, directrice de la préservation et du développement des collections
 
 [La Cinémathèque québécoise][]
 
 ## 16h30 Bien commun
 Avec Richard Phaneuf
 
-## 16h50 Bien commun
-Suites et clotûre
-
+## 16h50 Suites et clotûre
 Prochain rendez-vous lors de la [Semaine québécoise de l'informatique libre][]?
 
 ## 17h00 Départ
