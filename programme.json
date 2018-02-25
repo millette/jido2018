@@ -1,0 +1,156 @@
+[
+  {
+    "titre": "Accueil",
+    "description": "",
+    "heure": 12.5,
+    "duree": 30,
+    "qui": [{}],
+    "url": "https://...."
+  },
+  {
+    "titre": "Introduction",
+    "description": "",
+    "heure": 13,
+    "duree": 5,
+    "qui": [{}],
+    "url": "https://...."
+  },
+  {
+    "titre": "Données ouvertes, les bases",
+    "description": "",
+    "heure": 13,
+    "duree": 10,
+    "qui": [{}],
+    "url": "https://...."
+  },
+  {
+    "titre": "Ville de Montréal",
+    "description": "",
+    "heure": 13,
+    "duree": 45,
+    "qui": [
+      {
+      "organisme": "Ville de Montréal",
+      "url": "https://"
+      }
+    ],
+    "url": "https://...."
+  },
+  {
+    "titre": "Institut Stats Qc",
+    "description": "",
+    "heure": 14,
+    "duree": 45,
+    "qui": [
+      {
+        "organisme": "Institut Stats Qc",
+        "url": "https://..."
+      }
+    ],
+    "url": "https://...."
+  },
+  {
+    "titre": "Initiatives dans la salle",
+    "description": "",
+    "heure": 14,
+    "duree": 30,
+    "qui": [
+      {
+        "organisme": "",
+        "url": "https://..."
+      }
+    ],
+    "url": "https://...."
+  },
+  {
+    "titre": "Projets de Robin",
+    "description": "",
+    "heure": 14,
+    "duree": 15,
+    "qui": [
+      {
+        "personne": "Robin Millette",
+        "url": "http://robin.millette.info/"
+      }
+    ],
+    "url": "https://...."
+  },
+  {
+    "titre": "wikidata",
+    "description": "",
+    "heure": 14,
+    "duree": 30,
+    "qui": [
+      {
+        "personne": "Helmi",
+        "url": "https://..."
+      },
+      {
+        "organisme": "wikidata",
+        "url": "https://..."
+      }
+    ],
+    "url": "https://...."
+  },
+  {
+    "titre": "Le ContrActuel",
+    "description": "",
+    "heure": 15,
+    "duree": 45,
+    "qui": [
+      {
+        "organisme": "Le ContrActuel",
+        "url": "https://..."
+      },
+      {
+        "personne": "",
+        "url": "https://..."
+      }
+    ],
+    "url": "https://...."
+  },
+  {
+    "titre": "Cinémathèque",
+    "description": "",
+    "heure": 16,
+    "duree": 30,
+    "qui": [
+      {
+        "organisme": "Cinémathèque"
+      },
+      {
+        "personne": "Marina Gallet"
+      }
+    ],
+    "url": "https://...."
+  },
+  {
+    "titre": "Bien Commun",
+    "description": "",
+    "heure": 16,
+    "duree": 30,
+    "qui": [
+      {
+        "personne": "Richard Phaneuf",
+        "url": "https://..."
+      }
+    ],
+    "url": "https://...."
+  },
+  {
+    "titre": "Clotûre",
+    "description": "",
+    "heure": 16,
+    "duree": 5,
+    "qui": [{}],
+    "url": "https://...."
+  },
+  {
+    "titre": "Nous avons quitté",
+    "description": "",
+    "heure": 17,
+    "duree": 5,
+    "qui": [{}],
+    "url": "https://...."
+  }
+]

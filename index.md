@@ -1,17 +1,69 @@
----
-title: Journée internationale des données ouvertes
-subtitle: Édition 2018, Montréal, Québec, Canada
-date: Samedi le 3 mars 2018 de 13h à 17h
-location: Maison Notman, Montréal
-lang: fr
-...
-
 # Journée internationale des données ouvertes { .section }
 Dans de nombreuses villes à travers le monde, des citoyens se rassemblent pour développer des applications, libérer des données, créer des visualisations et publier des analyses utilisant des données ouvertes, tout cela pour supporter et encourager l'adoption de politiques de libération des données par les gouvernements locaux, régionaux et nationaux.
 
 Site officiel: [opendataday.org][]
 
 Au Canada, Vancouver, Edmonton, Calgary, Toronto, Montréal, St-John et Halifax participent cette année. Plus de détails sur [Code Across][] ou la [carte en pied de page](#mapid).
+
+# Programme de la journée { .section }
+*version préliminaire du programme*
+
+## 12h30 Accueil
+Ouverture de la salle
+
+## 13h00 Introduction
+* Présentation de la journée
+* Introduction aux données ouvertes
+
+## 13h15 Ville de Montréal
+*à confirmer*
+
+Données ouvertes et ville intelligente
+
+[Portail données ouvertes Montréal][]
+
+## 14h00 Initiatives dans la salle
+*micro-ouvert*
+
+Vous avez des projets à partager?
+
+## 14h30 Projets de Robin
+* [Autobus STM][Perturbations autobus STM]
+* [Urgence dans les hopitaux du Québec][]
+* [L'univers dat][]
+* [Vega et Vega-lite][]
+
+Avec Robin Millette
+
+## 14h45 Wikidata
+Le pendant machine de Wikipédia
+
+Avec Helmi Hamda et Pierre Choffet
+
+[Wikidata][]
+
+## 15h15 Le ContrActuel
+Analyse des contrats publics au Québec (SEAO)
+
+Avec Étienne Blanchette, Syndicat des professionnels du government du Québec
+
+[Le ContrActuel][]
+
+## 16h00 Cinémathèque
+Avec Marina Gallet, directrice de la préservation et du développement des collections
+
+[La Cinémathèque québécoise][]
+
+## 16h30 Bien commun
+Avec Richard Phaneuf
+
+## 16h50 Bien commun
+Suites et clotûre
+
+Prochain rendez-vous lors de la [Semaine québécoise de l'informatique libre][]?
+
+## 17h00 Départ
+Nous aurons quitté la salle à 17h.
 
 # Participer { .section }
 Vous avez une idée d'utilisation de données ouvertes, vous souhaitez contribuer à un projet intéressant ou vous voulez simplement voir ce qu'il se passe, alors venez vous joindre à nous. Peu importe vos compétences et vos intérêts, vous aurez de nombreuses opportunités pour apprendre et aider au développement de la communauté mondiale des données ouvertes.
@@ -48,7 +100,15 @@ Merci à Paul Frazee pour l'hébergement dat P2P sur [hashbase][] et le [backup]
 
 # Liens, références { .section }
 * [opendataday.org][]
+* [Portail données ouvertes Montréal][]
+* [Le ContrActuel][]
+* [La Cinémathèque québécoise][]
 * [Données Québec][]
+* [Wikidata][]
+* [L'univers dat][]
+* [Perturbations autobus STM][]
+* [Urgence dans les hopitaux du Québec][]
+* [Vega et Vega-lite][]
 * [tweet initial][twitter] hashtags ```#JIDO2018``` ```#OpenDataDay```
 * [discussion][] Forums du libre
 * [Agenda du libre][]
@@ -61,7 +121,7 @@ Merci à Paul Frazee pour l'hébergement dat P2P sur [hashbase][] et le [backup]
 * [Code Across][] Ailleurs au Canada
 * [hashbase][] Hébergement web et dat P2P
 * [backup][] https et ```dat://jido2018-millette.hashbase.io/```
-
+* [Semaine québécoise de l'informatique libre][]
 
 [discussion]: <https://forumsdulibre.quebec/t/journee-internationale-des-donnees-ouvertes-2018/324?u=millette>
 [wiki de FACIL]: <https://wiki.facil.qc.ca/view/Journ%C3%A9e_internationale_des_donn%C3%A9es_ouvertes>
@@ -81,4 +141,21 @@ Merci à Paul Frazee pour l'hébergement dat P2P sur [hashbase][] et le [backup]
 [backup]: <https://jido2018-millette.hashbase.io/>
 [Données Québec]: <https://www.donneesquebec.ca/>
 [Mur Mitoyen]: <http://montreal.murmitoyen.com/detail/810271-journee-internationale-des-donnees-ouvertes>
+[Le ContrActuel]: <http://www.lecontractuel.spgq.qc.ca/>
+[La Cinémathèque québécoise]: <http://www.cinematheque.qc.ca/>
+[Portail données ouvertes Montréal]: <http://donnees.ville.montreal.qc.ca/>
+[Wikidata]: <https://www.wikidata.org/wiki/Wikidata:Introduction/fr>
+[L'univers dat]: <https://univers-dat-millette.hashbase.io/univers-dat.html>
+[Perturbations autobus STM]: <http://stm.waglo.com/>
+[Urgence dans les hopitaux du Québec]: <https://urg-web-millette.hashbase.io/>
+[Vega et Vega-lite]: <https://vega.github.io/>
+[Semaine québécoise de l'informatique libre]: <https://sqil.info/>
 [id]: imgs/jido2018.png
+
+---
+title: Journée internationale des données ouvertes
+subtitle: Édition 2018, Montréal, Québec, Canada
+date: Samedi le 3 mars 2018 de 13h à 17h
+location: Maison Notman, Montréal
+lang: fr
+...
