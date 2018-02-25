@@ -24,18 +24,18 @@ Données ouvertes et ville intelligente
 
 [Portail données ouvertes Montréal][]
 
-## 14h00 Initiatives dans la salle
-*micro-ouvert*
-
-Vous avez des projets à partager?
-
-## 14h30 Projets de Robin
+## 14h00 Projets de Robin
 * [Autobus STM][Perturbations autobus STM]
 * [Urgence dans les hopitaux du Québec][]
 * [L'univers dat][]
 * [Vega et Vega-lite][]
 
-Avec Robin Millette
+Avec Robin Millette, votre hôte pour JIDO2018.
+
+## 14h15 Initiatives dans la salle
+*micro-ouvert*
+
+Vous avez des projets à partager?
 
 ## 14h45 Wikidata
 Le pendant machine de Wikipédia
