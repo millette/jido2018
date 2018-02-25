@@ -82,7 +82,7 @@ var $countdown = document.createElement('b')
 $date.appendChild($countdown)
 $tocUl.classList.add('menu-list')
 
-var countDownDate = new Date(2018, 2, 3, 13).getTime()
+var countDownDate = new Date(2018, 2, 3, 12, 30).getTime()
 
 var updateCountdown = function () {
   var countdownText = [' — dans moins de']
