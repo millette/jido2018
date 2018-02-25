@@ -5,6 +5,8 @@ Site officiel international: [opendataday.org][]
 
 Site de Montréal: [jido2018.waglo.com][]
 
+Version PDF: [index.pdf][]
+
 Au Canada, Vancouver, Edmonton, Calgary, Toronto, Montréal, St-John et Halifax participent cette année. Plus de détails sur [Code Across][] ou la [carte en pied de page](#mapid).
 
 # Programme de la journée { .section .programme }
@@ -123,6 +125,7 @@ Merci à Paul Frazee pour l'hébergement dat P2P sur [hashbase][] et le [backup]
 * [backup][] https et ```dat://jido2018-millette.hashbase.io/```
 * [Semaine québécoise de l'informatique libre][]
 * [jido2018.waglo.com][] Ce site
+* [index.pdf][] PDF de ce site
 
 [discussion]: <https://forumsdulibre.quebec/t/journee-internationale-des-donnees-ouvertes-2018/324?u=millette>
 [wiki de FACIL]: <https://wiki.facil.qc.ca/view/Journ%C3%A9e_internationale_des_donn%C3%A9es_ouvertes>
@@ -152,6 +155,7 @@ Merci à Paul Frazee pour l'hébergement dat P2P sur [hashbase][] et le [backup]
 [Vega et Vega-lite]: <https://vega.github.io/>
 [Semaine québécoise de l'informatique libre]: <https://sqil.info/>
 [jido2018.waglo.com]: <http://jido2018.waglo.com/>
+[index.pdf]: index.pdf
 
 [id]: imgs/jido2018.png
 
