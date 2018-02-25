@@ -154,6 +154,10 @@ $endif$
       padding: 0;
     }
 
+    .programme > section > h2 {
+      color: #c71c22;
+    }
+
   </style>
 $for(header-includes)$
   $header-includes$
