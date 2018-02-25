@@ -155,7 +155,7 @@ Merci à Paul Frazee pour l'hébergement dat P2P sur [hashbase][] et le [backup]
 ---
 title: Journée internationale des données ouvertes
 subtitle: Édition 2018, Montréal, Québec, Canada
-date: Samedi le 3 mars 2018 de 13h à 17h
+date: Samedi le 3 mars 2018 de 12h30 à 17h
 location: Maison Notman, Montréal
 lang: fr
 ...
