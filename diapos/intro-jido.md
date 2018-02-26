@@ -10,9 +10,8 @@
 * Créateurs d'applications de Données Québec
 * Ville de Montréal
 * Micro ouvert
-* Survols des projets de Robin
 * Wikidata
-* Cinémathèque
+* Et plus
 * Départ pour 17h
 
 <div class="notes">
@@ -124,7 +123,7 @@ Ce n'est qu'un survol des données ouvertes.
 > * Projets de Robin
 > * Initiatives dans la salle
 > * Wikidata
-> * Le ContrActuel
+> * Le ContrActuel (SEAO)
 > * Cinémathèque québécoise
 > * Bien commun
 
