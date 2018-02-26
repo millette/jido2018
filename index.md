@@ -19,12 +19,12 @@ Ouverture de la salle
 * Présentation de la journée
 * Introduction aux données ouvertes
 
-## 13h15 Ville de Montréal
-*à confirmer*
+## 13h15 Le ContrActuel
+Analyse des contrats publics au Québec (SEAO)
 
-Données ouvertes et ville intelligente
+Avec Étienne Blanchette, Syndicat des professionnels du gouvernement du Québec
 
-[Portail données ouvertes Montréal][]
+[Le ContrActuel][]
 
 ## 14h00 Projets de Robin
 * [Autobus STM][Perturbations autobus STM]
@@ -46,12 +46,12 @@ Avec Helmi Hamda
 
 [Wikidata][]
 
-## 15h15 Le ContrActuel
-Analyse des contrats publics au Québec (SEAO)
+## 15h15 Ville de Montréal
+*à confirmer*
 
-Avec Étienne Blanchette, Syndicat des professionnels du gouvernement du Québec
+Données ouvertes et ville intelligente
 
-[Le ContrActuel][]
+[Portail données ouvertes Montréal][]
 
 ## 16h00 Cinémathèque québécoise
 Avec Pierre Choffet et Marina Gallet, directrice de la préservation et du développement des collections
