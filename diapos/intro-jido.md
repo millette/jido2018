@@ -1,6 +1,6 @@
 # Accueil
 ## Merci!
-> * **Vous tous** pour vous êtes déplacés
+> * **Vous tous** pour vous être déplacés
 > * Toutes les personnes qui ont accepté de venir présenter
 > * **Maison Notman** pour nous recevoir gracieusement
 > * FACIL, Nord Ouvert, OKFN Canada pour les Journées antérieures
@@ -53,25 +53,25 @@
 
 # Les 5 étoiles
 ## ★
-Publiez vos données sur le Web (peu importe leur format) avec une licence ouverte
+Publiez vos données sur le Web (peu importe leur format) avec une licence ouverte.
 
 ## ★★
-Publiez-les en tant que données structurées (par exemple, un document Excel au lieu d'une image scannée d'un tableau)
+Publiez-les en tant que données structurées (par exemple, un document Excel au lieu d'une image scannée d'un tableau).
 
 ## ★★★
-Publiez-les dans un format ouvert et non-propriétaire (par exemple, un CSV plutôt qu'un Excel)
+Publiez-les dans un format ouvert et non-propriétaire (par exemple, un CSV plutôt qu'un Excel).
 
 ## ★★★★
-Utilisez des URI pour désigner des choses dans vos données, afin que les gens puissent faire des références à celles-ci
+Utilisez des URI pour désigner des choses dans vos données, afin que les gens puissent faire des références à celles-ci.
 
 ## ★★★★★
-Liez vos données à d'autres données pour y ajouter du contexte
+Liez vos données à d'autres données pour y ajouter du contexte.
 
 ## Utilisateur Créateur
 À 5 étoiles, le créateur est aussi l'utilisateur.
 
 ## *Postel's law*
-> Soyez tolérant dans ce que vous acceptez et pointilleux dans ce que vous envoyez
+> Soyez tolérant dans ce que vous acceptez et pointilleux dans ce que vous envoyez.
 
 Principe de robustesse, Jon Postel, 1980
 
@@ -98,6 +98,7 @@ And another.
 * Études de marché
 
 ## Valorisation
+* Initiative citoyennes
 * Portails
 * Applications
 * Croisements
