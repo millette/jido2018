@@ -13,16 +13,16 @@ Au Canada, Vancouver, Edmonton, Calgary, Toronto, Montréal, St-John et Halifax 
 *version préliminaire du programme*
 
 ## 12h30 Accueil
-Ouverture de la salle
+Ouverture de la salle.
 
 ## 13h00 Introduction
 * Présentation de la journée
 * Introduction aux données ouvertes
 
 ## 13h15 Le ContrActuel
-Analyse des contrats publics au Québec (SEAO)
+Analyse des contrats publics au Québec (SEAO).
 
-Avec Étienne Blanchette, Syndicat des professionnels du gouvernement du Québec
+Avec Étienne Blanchette, Syndicat des professionnels du gouvernement du Québec.
 
 [Le ContrActuel][]
 
@@ -40,26 +40,26 @@ Avec Robin Millette, votre hôte pour JIDO2018.
 Vous avez des projets à partager?
 
 ## 14h45 Wikidata
-Le pendant machine de Wikipédia
+Le pendant machine de Wikipédia.
 
-Avec Helmi Hamda
+Avec Helmi Hamda.
 
 [Wikidata][]
 
 ## 15h15 Ville de Montréal
-*à confirmer*
+Présentation et discussions sur les données ouvertes et la ville intelligente.
 
-Données ouvertes et ville intelligente
+Avec Patrick M. Lozeau, conseiller planification - données ouvertes.
 
 [Portail données ouvertes Montréal][]
 
 ## 16h00 Cinémathèque québécoise
-Avec Pierre Choffet et Marina Gallet, directrice de la préservation et du développement des collections
+Avec Pierre Choffet et Marina Gallet, directrice de la préservation et du développement des collections.
 
 [La Cinémathèque québécoise][]
 
 ## 16h30 Bien commun
-Avec Richard Phaneuf
+Avec Richard Phaneuf.
 
 ## 16h50 Suites et clotûre
 Prochain rendez-vous lors de la [Semaine québécoise de l'informatique libre][]?
