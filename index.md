@@ -54,9 +54,7 @@ Avec Patrick M. Lozeau, conseiller planification - données ouvertes.
 [Portail données ouvertes Montréal][]
 
 ## 16h00 Cinémathèque québécoise
-Archives et données ouvertes du cinéma québécois.
-
-Avec Marina Gallet, Directrice de la préservation et du développement des collections et Pierre Choffet, contributeur aux projets Wikimedia.
+Avec Pierre Choffet et Marina Gallet, directrice de la préservation et du développement des collections.
 
 [La Cinémathèque québécoise][]
 
