@@ -11,7 +11,16 @@ const normOpts = {
   sortQueryParameters: false
 }
 
-const norm = (u) => normImp(u, normOpts)
+const norm = (u) => {
+  u = u.trim()
+  if (!u) { return console.error('noURL') }
+  if (u === '#ref!') { return console.error('URL:', u) }
+  if (u === 'http://ens.lacity.org/clk/councilagendas/clkcouncilagendas3118730_02202018.html (sample agenda)') {
+    u = 'http://ens.lacity.org/clk/councilagendas/clkcouncilagendas3118730_02202018.html'
+  }
+  if (u.indexOf(' ') !== -1) { return console.error('URL spaced:', u) }
+  return normImp(u, normOpts)
+}
 
 const tr = (entry) => {
   if (!entry.gsx$longitude.$t) { return false }
@@ -35,7 +44,7 @@ const tr = (entry) => {
 
     default:
       urlTmp = norm(urlTmp)
-      if (!urlTmp.indexOf('http')) { ret.properties.url = urlTmp }
+      if (urlTmp && !urlTmp.indexOf('http')) { ret.properties.url = urlTmp }
   }
 
   const nParticipants = parseInt(entry.gsx$numberofparticipants.$t, 10)
