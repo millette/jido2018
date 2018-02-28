@@ -27,6 +27,10 @@ $endfor$
 $else$
     <link rel="stylesheet" href="$revealjs-url$/css/theme/$if(theme)$$theme$$else$simple$endif$.css" id="theme">
 $endif$
+
+    <link rel="stylesheet" href="$revealjs-url$/plugin/toc-progress/toc-progress.css">
+    <link rel="stylesheet" href="$revealjs-url$/plugin/title-footer/title-footer.css">
+
     <!-- If the query includes 'print-pdf', include the PDF print sheet -->
     <script>
       if( window.location.search.match( /print-pdf/gi ) ) {
@@ -97,7 +101,24 @@ $body$
           { src: '$revealjs-url$/lib/js/classList.js', condition: function() { return !document.body.classList; } },
           { src: '$revealjs-url$/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
           { src: '$revealjs-url$/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
-//          { src: '$revealjs-url$/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+          {
+            src: '$revealjs-url$/plugin/title-footer/title-footer.js',
+            async: true,
+            callback: function () {
+              title_footer.initialize('$revealjs-url$')
+            },
+            condition: function() { return !!document.body.classList; }
+          },
+          { src: '$revealjs-url$/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } },
+          {
+            src: '$revealjs-url$/plugin/toc-progress/toc-progress.js',
+            async: true,
+            callback: function () {
+              toc_progress.initialize('$revealjs-url$')
+              // toc_progress.create()
+            },
+            condition: function() { return !!document.body.classList; }
+          }
 //          { src: '$revealjs-url$/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 ]});
     </script>
