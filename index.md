@@ -40,7 +40,7 @@ Vous avez des projets à partager?
 ## 14h45 Wikidata
 Le pendant machine de Wikipédia.
 
-Avec Helmi Hamda.
+Avec Helmi Hamdi.
 
 [Wikidata][]
 
