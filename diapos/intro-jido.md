@@ -133,4 +133,5 @@ title: JIDO❤2018 Montréal
 date: Samedi le 3 mars 2018
 author: Robin Millette
 lang: fr
+theme: sky
 ...
