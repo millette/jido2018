@@ -10,8 +10,6 @@ Version PDF: [index.pdf][]
 Au Canada, Vancouver, Edmonton, Calgary, Toronto, Montréal, St-John et Halifax participent cette année. Plus de détails sur [Code Across][] ou la [carte en pied de page](#mapid).
 
 # Programme de la journée { .section .programme }
-*version préliminaire du programme*
-
 ## 12h30 Accueil
 Ouverture de la salle.
 
