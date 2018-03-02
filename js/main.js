@@ -3,6 +3,7 @@
 var mapEl = document.getElementById('mapid')
 mapEl.style.height = Math.round(mapEl.clientWidth * (0.618 / 2)) + 'px'
 
+mapEl.innerText = ''
 var mymap = window.L.map(mapEl)
 window.L.tileLayer.provider('OpenStreetMap.Mapnik').addTo(mymap)
 
@@ -64,7 +65,7 @@ var yo = function () {
           if (layer.feature.properties.nParticipants) { ret.push(layer.feature.properties.nParticipants + ' participants') }
           return ret.join('<br>')
         })
-        .addTo(mymap);
+      .addTo(mymap);
     })
     .then(function (bounds) {
       if (!mymap.getZoom()) {
