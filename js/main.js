@@ -116,9 +116,9 @@ var updateCountdown = function () {
 updateCountdown()
 
 if (typeof setActiveStyleSheet === 'function') {
-  var $toc = document.querySelector('#TOC')
-  var $rym = document.querySelector('.rym-sticky')
-  var $before = document.querySelector('.rym-sticky > :first-child')
+  var $rym = document.querySelector('.column.is-narrow')
+  var $before = document.querySelector('.column.is-narrow > :first-child')
+
   var $field = document.createElement('div')
   var $defaultStyle = document.createElement('button')
   var $altStyle = document.createElement('button')
@@ -128,7 +128,6 @@ if (typeof setActiveStyleSheet === 'function') {
 
   $field.classList.add('buttons')
   $field.classList.add('is-centered')
-  $field.classList.add('box')
 
   $defaultStyle.innerText = 'Night mode'
   $defaultStyle.classList.add('button')
@@ -145,9 +144,6 @@ if (typeof setActiveStyleSheet === 'function') {
   $field.appendChild($defaultStyle)
   $field.appendChild($altStyle)
   $field.appendChild($titre)
-  // $toc.appendChild($field)
-
-  // parentNode.insertBefore(newNode, referenceNode);
   $rym.insertBefore($field, $before)
 
   $defaultStyle.addEventListener('click', function (ev) {
