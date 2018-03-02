@@ -94,8 +94,8 @@ $body$
         history: true,
         center: true,
         previewLinks: true,
-        history: false,
-        slideNumber: true,
+        // history: true,
+        slideNumber: 'c/t',
         autoSlide: $if(autoslide)$$autoslide$$else$0$endif$,
         theme: $if(theme)$'$theme$'$else$Reveal.getQueryHash().theme$endif$, // available themes are in /css/theme
         transition: $if(transition)$'$transition$'$else$Reveal.getQueryHash().transition || 'default'$endif$, // default/cube/page/concave/zoom/linear/fade/none
