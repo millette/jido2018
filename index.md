@@ -86,7 +86,18 @@ Beaucoup de choses vont se produire. Alors... attendez-vous à:
 
 **Inspiré? Venez en [discuter][discussion] sur les Forums du libre.**
 
-# Éditions précédentes { .section }
+# Organisation { .section }
+[Robin Millette][], voyons que personne n'avait encore pris l'initiative, s'est lancé dans l'organisation de la journée à un peu plus de 10 jours de l'événement. La [Maison Notman][] confirmait la salle quelques jours plus tard puis les choses se sont emballées:
+
+* Site web
+* Promotion
+* Recherche de conférences
+
+Cette Journée n'aurait été possible sans votre support, merci à tous ceux qui ont participé à la faire connaitre!
+
+On peut contacter Robin par email <mailto:robin@millette.info> ou au 514-394-7877.
+
+## Éditions précédentes
 La première édition du *Open Data Day* remonte au 4 décembre 2010, sous la forme de hackathons. Montréal a participé depuis à 3 ou 4 reprises, grâce entre autre à [FACIL][], [Nord Ouvert][], [OKFN Canada][] et bien plus. On trouvera un petit historique sur le [wiki de FACIL][].
 
 # Remerciements
@@ -99,6 +110,8 @@ Merci à Frédéric (créateur du [Character Creator]) pour l'image de promotion
 Merci à [donchico pour l'image du header][] (domaine public, 2016-05-14).
 
 Merci à Paul Frazee pour l'hébergement dat P2P sur [hashbase][] et le [backup][] du site.
+
+Merci à tous ceux qui ont participé à diffuser l'information.
 
 # Liens, références { .section }
 * [opendataday.org][]
@@ -155,6 +168,7 @@ Merci à Paul Frazee pour l'hébergement dat P2P sur [hashbase][] et le [backup]
 [Vega et Vega-lite]: <https://vega.github.io/>
 [Semaine québécoise de l'informatique libre]: <https://sqil.info/>
 [jido2018.waglo.com]: <http://jido2018.waglo.com/>
+[Robin Millette]: <http://robin.millette.info/>
 [index.pdf]: index.pdf
 
 [id]: imgs/jido2018.png
