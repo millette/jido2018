@@ -1,2 +1,4 @@
 node_modules/**
 scripts/node_modules/**
+scripts/jido2018.json
+index-pandoc.json
