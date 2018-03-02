@@ -145,6 +145,14 @@ $endif$
       margin-top: 2em;
     }
 
+    .rym-sticky .title {
+      margin-bottom: 0.25em;
+    }
+
+    .buttons {
+      margin-top: 1.5em;
+    }
+
     .buttons > i {
       font-size: small;
       padding-left: 1em;
@@ -156,6 +164,10 @@ $endif$
 
     .programme > section > h2 {
       color: #c71c22;
+    }
+
+    #mapid a {
+      color: #2fa4e7;
     }
 
   </style>
@@ -201,6 +213,7 @@ $endif$
 $if(location)$
 <h3 class="location title is-6">$location$</h3>
 $endif$
+<p>51 rue Sherbrooke Ouest, salle Clark, 3e étage.</p>
 
 <div class="buttons is-centered">
 <a class="button is-danger" href="https://dates.facil.services/jido2018">Inscription</a>

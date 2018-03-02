@@ -87,7 +87,7 @@ Beaucoup de choses vont se produire. Alors... attendez-vous à:
 **Inspiré? Venez en [discuter][discussion] sur les Forums du libre.**
 
 # Organisation { .section }
-[Robin Millette][], voyons que personne n'avait encore pris l'initiative, s'est lancé dans l'organisation de la journée à un peu plus de 10 jours de l'événement. La [Maison Notman][] confirmait la salle quelques jours plus tard puis les choses se sont emballées:
+[Robin Millette][], constatant que personne n'avait encore pris l'initiative, s'est lancé dans l'organisation de la journée à un peu plus de 10 jours de l'événement. La [Maison Notman][] confirmait la salle quelques jours plus tard puis les choses se sont emballées:
 
 * Site web
 * Promotion
