@@ -227,6 +227,11 @@ $body$
   <p class="level-item ">
     &copy; 2018&nbsp;<a class="link" href="http://robin.millette.info/">Robin Millette</a>
   </p>
+
+  <p class="level-item ">
+    <a href="https://creativecommons.org/licenses/by/4.0/deed.fr"><img src="imgs/cc-by.png" alt="Licence Creative Commons BY 4.0 - Attribution / Paternité"></a>
+  </p>
+
   <p class="level-item ">
     <a class="link" href="$sourcefile$">source Markdown</a>
   </p>
