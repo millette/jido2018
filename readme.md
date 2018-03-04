@@ -32,17 +32,17 @@ Avec Étienne Blanchette, Syndicat des professionnels du gouvernement du Québec
 
 Avec Robin Millette, votre hôte pour JIDO2018.
 
-## 14h15 Initiatives dans la salle
-*micro-ouvert*
-
-Vous avez des projets à partager?
-
-## 14h45 Wikidata
+## 14h15 Wikidata
 Le pendant machine de Wikipédia.
 
 Avec Helmi Hamdi.
 
 [Wikidata][]
+
+## 14h45 Initiatives dans la salle
+*micro-ouvert*
+
+Vous avez des projets à partager?
 
 ## 15h15 Ville de Montréal
 Présentation et discussions sur les données ouvertes et la ville intelligente.
@@ -57,9 +57,6 @@ Archives et données ouvertes du cinéma québécois
 Avec Marina Gallet, Directrice de la préservation et du développement des collections et Pierre Choffet, contributeur aux projets Wikimedia.
 
 [La Cinémathèque québécoise][]
-
-## 16h30 Bien commun
-Avec Richard Phaneuf.
 
 ## 16h50 Suites et clotûre
 Prochain rendez-vous lors de la [Semaine québécoise de l'informatique libre][]?
