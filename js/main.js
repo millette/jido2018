@@ -76,12 +76,13 @@ var yo = function () {
 
 yo()
 
-
-var $date = document.querySelector('.date')
 var $tocUl = document.querySelector('#TOC > ul')
+$tocUl.classList.add('menu-list')
+
+/*
+var $date = document.querySelector('.date')
 var $countdown = document.createElement('b')
 $date.appendChild($countdown)
-$tocUl.classList.add('menu-list')
 
 var countDownDate = new Date(2018, 2, 3, 12, 30).getTime()
 
@@ -114,6 +115,7 @@ var updateCountdown = function () {
 }
 
 updateCountdown()
+*/
 
 if (typeof setActiveStyleSheet === 'function') {
   var $rym = document.querySelector('.column.is-narrow')
