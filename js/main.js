@@ -45,7 +45,7 @@ var yo = function () {
     })
     .then(function (geo) {
       var nParticipantsTotal = geo.features
-        .map(function (x) { return Math.min(100000, x.properties.nParticipants) || 0 })
+        .map(function (x) { return x.properties.nParticipants || 0 })
         .reduce(function (a, v) { return a + v }, 0)
 
       $nevenements.innerText = geo.features.length

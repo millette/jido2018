@@ -48,7 +48,7 @@ const tr = (entry) => {
   }
 
   const nParticipants = parseInt(entry.gsx$numberofparticipants.$t, 10)
-  if (nParticipants) { ret.properties.nParticipants = nParticipants }
+  if ((nParticipants > 0) && (nParticipants < 6000)) { ret.properties.nParticipants = nParticipants }
   if (entry.gsx$organizers.$t) { ret.properties.organizers = entry.gsx$organizers.$t }
   return ret
 }
